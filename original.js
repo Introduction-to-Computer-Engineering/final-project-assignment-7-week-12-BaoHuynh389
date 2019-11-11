@@ -3,7 +3,7 @@ original file by building the circuit of 3 LEDs
 input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Butterfly)
 })
-led.enable(true)
+led.enable(false)
 pins.analogWritePin(AnalogPin.P6, 0)
 pins.analogWritePin(AnalogPin.P7, 0)
 pins.analogWritePin(AnalogPin.P9, 0)
