@@ -43,18 +43,20 @@ The file [criteria.md](criteria.md) contains the criteria for passing.
 - video link: https://imgur.com/XrSldeF
 
 # Part 5: manual- calibration
-Write a program that:
-      1. Reads the sensor input in a loop with pauses to get the reading.
-		2. It only powers the sensor when it takes a reading, by writing a 1 and then a 0 to the digital output pin. **Do not hook up the VCC on the sensor to a constant 3.3V or leave the digital pin to 1 when you are not taking a reading. This degrades the sensor quickly! **
-		3. Maps the range of input values of the sensor (you need to measure them yourself) to the range 0-4. Use the [`map`](https://makecode.microbit.org/reference/pins/map) function. This is called _calibration_ of the sensor. For the minimum value, take a reading with a dry sensor not touching anything; for the maximum value, take a reading with the sensor prongs dipped in shallow water. **Do not immerse the whole sensor in water!**
-		4. When it takes a sensor reading, it lights up as many rows of the LED matrix as correspond to the rescaled magnitude of the reading.
-   4. Commit the JavaScript file to your assignment repository, calling it `manual-calibration.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
-   5. Write a program that does the calibration programmatically:
+- short writeup: This program is a moisture meter. The sensor had to be manually calibrated before the program was downloaded. It then displays the amount of moisture by lighting up the corresponding led rows.
+
+- Write a program that:
+1. Reads the sensor input in a loop with pauses to get the reading.
+2. It only powers the sensor when it takes a reading, by writing a 1 and then a 0 to the digital output pin. **Do not hook up the VCC on the sensor to a constant 3.3V or leave the digital pin to 1 when you are not taking a reading. This degrades the sensor quickly! **
+3. Maps the range of input values of the sensor (you need to measure them yourself) to the range 0-4. Use the [`map`](https://makecode.microbit.org/reference/pins/map) function. This is called _calibration_ of the sensor. For the minimum value, take a reading with a dry sensor not touching anything; for the maximum value, take a reading with the sensor prongs dipped in shallow water. **Do not immerse the whole sensor in water!**
+4. When it takes a sensor reading, it lights up as many rows of the LED matrix as correspond to the rescaled magnitude of the reading. Commit the JavaScript file to your assignment repository, calling it `manual-calibration.js`. Build the circuit and take a 
 
 - code link : [manual-calibration.js](manual-calibration.js)
 - video link: https://imgur.com/ArpFKdE, https://imgur.com/J9N97CX, https://imgur.com/kDCNkDG
 
 # Part 6: auto-calibration
+- short writeup: This program is a moisture meter. The sensor asks for a reading the low and three readings of the high values of the range (it displays a downward arrow), then a reading in water (it displays an upward arrow). then it will average the readings and use them to calibrate the sensor. It will then display the amount of moisture by lighting up the corresponding led rows.
+
 5. Write a program that does the calibration programmatically:
       1. When the program starts, it prompts the user to take three readings of the low and three readings of the high values of the range. It starts by showing the South icon image to prompt the user to take a low value, and records it. Then, it shows the North icon image to prompt the user to take a high value, and records it. It repeats this two more times, for a total of 3 readings for each.
       2. It takes the average of the low values and sets the range minimum to that value. It does the same for the range maximum.
@@ -62,5 +64,5 @@ Write a program that:
    6. Commit the JavaScript file to your assignment repository, calling it `auto-calibration.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
 
 - code link : [auto-calibration.js](auto-calibration.js)
-- video link: https://imgur.com/A3Xj2XU, 
+- video link: https://imgur.com/A3Xj2XU, https://imgur.com/kh5ACUE
 
