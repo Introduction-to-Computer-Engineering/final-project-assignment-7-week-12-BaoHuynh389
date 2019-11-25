@@ -11,7 +11,8 @@ This is the final project and the last required assignment. It contains lab work
 2. Oscilloscope exercises and passing data over I2C.
 3. Tutorial on creating a Makecode extension package for the soil moisture sensor.
 The file [criteria.md](criteria.md) contains the criteria for passing.
-#Part 1: original
+
+# Part 1: Original LEDs
   - the origianl programe in microbit and build the circuit, 
   - using 3 LEDs of different colors. Remember the proper orientation of the LEDs (long leg toward higher voltage). 
   - The original program fades one led to another. Instead of a regular fade, the program waits until an led is fading at half light, then      it starts lighting up the new led.
