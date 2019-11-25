@@ -13,7 +13,8 @@ This is the final project and the last required assignment. It contains lab work
 The file [criteria.md](criteria.md) contains the criteria for passing.
 
 # Part 1: Original LEDs
-Follow the instructions in the SparkFun [micro:bit breakout board hookup guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide). Build the circuit, using 3 LEDs of different colors. Remember the proper orientation of the LEDs (long leg toward higher voltage). Commit the JavaScript file to your assignment repository, calling it `original-guide.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
+- short writeup: The original program fades one led to another. Instead of a regular fade, the program waits until an led is fading at half light, then it starts lighting up the new led. The following link has the video of the origial program.
+- Build the circuit, using 3 LEDs of different colors. Remember the proper orientation of the LEDs (long leg toward higher voltage). Commit the JavaScript file to your assignment repository, calling it `original-guide.js`. Build the circuit and take a short video of its operation.
 
 - code link : [original-guide.js](original-guide.js)
 - video link: https://imgur.com/gallery/QBG1kEb
