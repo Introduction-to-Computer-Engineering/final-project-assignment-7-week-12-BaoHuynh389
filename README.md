@@ -28,7 +28,7 @@ The file [criteria.md](criteria.md) contains the criteria for passing.
 
 # Part 3: twenty-eight
 - short writeup: This program uses both the leds and the led matrix by using one of my old screensavers. This screensaver will randomly light either an external led or an led on the led matrix. 
-- Now that you have a 5x5 LED matrix and 3 external LEDs, extend your favorite screensaver program to include the external LEDs into the changing pattern. Do something interesting. Commit the JavaScript file to your assignment repository, calling it `twenty-eight.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
+- Now that you have a 5x5 LED matrix and 3 external LEDs, extend your favorite screensaver program to include the external LEDs into the changing pattern. Do something interesting. Commit the JavaScript file to your assignment repository, calling it `twenty-eight.js`. Build the circuit and take a short video of its operation. 
 
 - code link : [twenty-eight.js](twenty-eight.js)
 - video link: https://imgur.com/gallery/e5Y8DTT
