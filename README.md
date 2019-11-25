@@ -47,7 +47,7 @@ Write a program that:
    5. Write a program that does the calibration programmatically:
 
 - code link : [manual-calibration.js](manual-calibration.js)
-- video link:
+- video link: https://imgur.com/ArpFKdE, https://imgur.com/J9N97CX, 
 
 # Part 6: auto-calibration
 5. Write a program that does the calibration programmatically:
