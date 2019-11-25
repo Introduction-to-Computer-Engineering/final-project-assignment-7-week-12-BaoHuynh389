@@ -19,20 +19,24 @@ The file [criteria.md](criteria.md) contains the criteria for passing.
 - code link : [original-guide.js](original-guide.js)
 - video link: https://imgur.com/gallery/QBG1kEb
 
-# Part 2: enable
-Reconfigure the circuit and rewrite the program to avoid disabling the LED matrix. Choose the correct 3 pins from the [micro:bit GPIO function table](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide#hardware-overview). Add code to demonstrate that the LED matrix is enabled. Commit the JavaScript file to your assignment repository, calling it `enable-matrix.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
+# Part 2: enable-MATRIX
+- short writeup: The program lights up each individual led one at a time, then it lights up all three. When it lights up all three external leds, it displays a firework pattern on the led matrix. The following link has the video to this program.
+- Reconfigure the circuit and rewrite the program to avoid disabling the LED matrix. Choose the correct 3 pins from the [micro:bit GPIO function table](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide#hardware-overview). Add code to demonstrate that the LED matrix is enabled. Commit the JavaScript file to your assignment repository, calling it `enable-matrix.js`. Build the circuit and take a short video of its operation.
 
 - code link : [enable-matrix.js](enable-matrix.js)
 - video link: https://imgur.com/gallery/R3wzPVu
 
 # Part 3: twenty-eight
-Now that you have a 5x5 LED matrix and 3 external LEDs, extend your favorite screensaver program to include the external LEDs into the changing pattern. Do something interesting. Commit the JavaScript file to your assignment repository, calling it `twenty-eight.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
+- short writeup: This program uses both the leds and the led matrix by using one of my old screensavers, called randomDots. This screensaver will randomly light either an external led or an led on the led matrix. 
+- Now that you have a 5x5 LED matrix and 3 external LEDs, extend your favorite screensaver program to include the external LEDs into the changing pattern. Do something interesting. Commit the JavaScript file to your assignment repository, calling it `twenty-eight.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
 
 - code link : [twenty-eight.js](twenty-eight.js)
 - video link: https://imgur.com/gallery/e5Y8DTT
 
 # Part 4: digital-in (Soil sensor)
-   1. Keeping at least one analog output pin, open a digital input pin and hook it up to a TTL input button on the workstation. Light the external LED when you detect a 1 on the input button (that is, the button is _pressed_). _Note: Do you need an external or internal [pullup resistor](https://www.google.com/search?q=pullup+pulldown+resistor&oq=pullup+pull)?_ Commit the JavaScript file to your assignment repository, calling it `digital-in.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
+- short writeup: a program that turns on an LED when the TTL input button is set to one. When the button is not set to one, the LED is turned off.
+
+   1. Keeping at least one analog output pin, open a digital input pin and hook it up to a TTL input button on the workstation. Light the external LED when you detect a 1 on the input button (that is, the button is _pressed_). _Note: Do you need an external or internal [pullup resistor](https://www.google.com/search?q=pullup+pulldown+resistor&oq=pullup+pull)?_ Commit the JavaScript file to your assignment repository, calling it `digital-in.js`. Build the circuit and take a short video of its operation. 
    2. Hook up the soil moisture sensor. There are three wires coming out: VCC, GND, and SIG. Pick a GPIO pin, configure it as digital output, and wire VCC to it. Pick a GPIO pin, configure it as analog in, and wire SIG to it. GND whould be wired to ground on the micro:bit.
 
 - code link : [digital-in.js](digital-in.js)
@@ -48,7 +52,7 @@ Write a program that:
    5. Write a program that does the calibration programmatically:
 
 - code link : [manual-calibration.js](manual-calibration.js)
-- video link: https://imgur.com/ArpFKdE, https://imgur.com/J9N97CX, 
+- video link: https://imgur.com/ArpFKdE, https://imgur.com/J9N97CX, https://imgur.com/kDCNkDG
 
 # Part 6: auto-calibration
 5. Write a program that does the calibration programmatically:
@@ -58,5 +62,5 @@ Write a program that:
    6. Commit the JavaScript file to your assignment repository, calling it `auto-calibration.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
 
 - code link : [auto-calibration.js](auto-calibration.js)
-- video link:
+- video link: https://imgur.com/A3Xj2XU, 
 
