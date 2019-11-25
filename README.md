@@ -22,20 +22,20 @@ Follow the instructions in the SparkFun [micro:bit breakout board hookup guide](
 Reconfigure the circuit and rewrite the program to avoid disabling the LED matrix. Choose the correct 3 pins from the [micro:bit GPIO function table](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide#hardware-overview). Add code to demonstrate that the LED matrix is enabled. Commit the JavaScript file to your assignment repository, calling it `enable-matrix.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
 
 - code link : [enable-matrix.js](enable-matrix.js)
-- video link:
+- video link: https://imgur.com/gallery/R3wzPVu
 
 # Part 3: twenty-eight
 Now that you have a 5x5 LED matrix and 3 external LEDs, extend your favorite screensaver program to include the external LEDs into the changing pattern. Do something interesting. Commit the JavaScript file to your assignment repository, calling it `twenty-eight.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
 
-- code link : []()
-- video link:
+- code link : [twenty-eight.js](twenty-eight.js)
+- video link: https://imgur.com/gallery/e5Y8DTT
 
 # Part 4: digital-in (Soil sensor)
    1. Keeping at least one analog output pin, open a digital input pin and hook it up to a TTL input button on the workstation. Light the external LED when you detect a 1 on the input button (that is, the button is _pressed_). _Note: Do you need an external or internal [pullup resistor](https://www.google.com/search?q=pullup+pulldown+resistor&oq=pullup+pull)?_ Commit the JavaScript file to your assignment repository, calling it `digital-in.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
    2. Hook up the soil moisture sensor. There are three wires coming out: VCC, GND, and SIG. Pick a GPIO pin, configure it as digital output, and wire VCC to it. Pick a GPIO pin, configure it as analog in, and wire SIG to it. GND whould be wired to ground on the micro:bit.
 
-- code link : []()
-- video link:
+- code link : [digital-in.js](digital-in.js)
+- video link: https://imgur.com/XrSldeF
 
 # Part 5: manual- calibration
 Write a program that:
@@ -46,7 +46,7 @@ Write a program that:
    4. Commit the JavaScript file to your assignment repository, calling it `manual-calibration.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
    5. Write a program that does the calibration programmatically:
 
-- code link : []()
+- code link : [manual-calibration.js](manual-calibration.js)
 - video link:
 
 # Part 6: auto-calibration
@@ -56,5 +56,6 @@ Write a program that:
       3. It performs the mapping, exits the calibration subprogram, scrolls "Calibration success" once, and starts normal operation described in the previous task.
    6. Commit the JavaScript file to your assignment repository, calling it `auto-calibration.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
 
-link
+- code link : [auto-calibration.js](auto-calibration.js)
+- video link:
 
